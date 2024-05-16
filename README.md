@@ -35,7 +35,7 @@ python train_supervised.py -d ori --n_degree 20 --bs 100 --n_epoch 10  --n_layer
 - Improve memory in a more efficient way
 
 ## 4. Args 
-
+```
   -d, --data                                Dataset name
   --bs                                      Batch_size
   --prefix                                  Prefix to name the checkpoints
