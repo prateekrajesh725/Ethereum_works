@@ -5,6 +5,19 @@
 
 The dataset [ori] convert it into npz using convertnpz.py file
 
+# Description of npz datafile.
+
+File **ori.npz** including below keys:  
+
+- **x**: 17-dimensional node features. made by using wordtovec
+- **y**: node label.       
+- **edge_index**: shape (, 2).   
+    Each edge is in the form (id_a, id_b), where ids are the indices in x.        
+- **edge_type**: 11 types of edges.   
+- **edge_timestamp**: the desensitized timestamp of each edge.  
+- **train_mask, valid_mask, test_mask**:  
+    Nodes of Class 0 and Class 1 are randomly splitted by 70/15/15.  
+
 ## 2. Usage
 
 ### 2.1 Data Preprocessing
