@@ -1,0 +1,6 @@
+The dataset has 119998 interactions, involving 42590 different nodes
+The training dataset has 114259 interactions, involving 39442 different nodes
+The validation dataset has 3343 interactions, involving 2238 different nodes
+The test dataset has 2396 interactions, involving 1829 different nodes
+cuda:0
+365697
