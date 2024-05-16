@@ -1,34 +1,5 @@
 
-# TGN for anomaly detection in DGraph-Fin
 
-This repo is the code of [TGN](https://arxiv.org/pdf/2006.10637.pdf) model on [DGraph-Fin](https://dgraph.xinye.com/dataset) dataset.
-
-Performance on **DGraphFin** (10 runs):
-
-| Methods   |  Test AUC  | Valid AUC  |
-|  :----  | ---- | ---- |
-| TGN-no-mem |  0.7741 ± 0.0003 | 0.7591 ± 0.0008 |
-
-`TGN-no-mem` achieves top-2 performance on DGraphFin until August, 2022. ([DGraph-Fin Leaderboard](https://dgraph.xinye.com/leaderboards/dgraphfin))
-
-
-## 1. Setup 
-
-### 1.1 Environment
-
-- Dependencies: 
-```{bash}
-python==3.8
-torch==1.8.2+cu102
-pandas==1.4.1
-sklearn==1.0.2
-tqdm
-...
-```
-
-- GPU: NVIDIA A100 (40GB)
-
-- Params: 425,601
 
 ### 1.2 Dataset
 
