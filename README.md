@@ -13,7 +13,7 @@ To run this code on the datasets, please first run the script to preprocess the 
 
 ```bash
 cd utils/
-python3 preprocess_dgraphfin.py
+python preprocess_eth.py
 ```
 
 
